@@ -1,0 +1,29 @@
+/* Variables base */
+:root{
+  --brand:#FA812E;
+  --ink:#0f172a;
+  --muted:#6b7280;
+}
+
+/* Tipografía */
+body{ font-family: system-ui, -apple-system, "Segoe UI", Roboto, Inter, Arial, sans-serif; color:var(--ink); }
+
+/* Nav */
+.navbar .nav-link{ font-weight:600; }
+.navbar .nav-link.active{ color:var(--brand); }
+
+/* Hero */
+header .lead{ color:var(--muted); }
+
+/* Cards: efecto sutil */
+.card-hover{ transition: transform .2s ease, box-shadow .2s ease; }
+.card-hover:hover{ transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,.08); }
+
+/* CTA gradient */
+.cta-gradient{
+  background: linear-gradient(90deg, #ff7a2f 0%, #ff9f61 100%);
+  color: #fff;
+}
+
+/* Footer */
+.hover-light:hover{ color:#fff !important; }

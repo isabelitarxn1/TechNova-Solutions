@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechNova Solutions</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+    <div class="container"><a class="navbar-brand fw-bold text-warning" href="index.html">TechNova Solutions</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="Servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="Login.html">Iniciar Sesión</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-warning" href="Contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-6">
+          <h1 class="display-5 fw-bold">Bienvenido a TechNova Solutions</h1>
+          <p class="lead text-muted">Soluciones tecnológicas innovadoras para tu negocio.</p>
+          <div class="d-flex gap-3">
+            <a href="Contacto.html" class="btn btn-warning btn-lg">Contáctanos</a>
+            <a href="#servicios" class="btn btn-outline-dark btn-lg">Ver servicios</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="img/Home.png" class="img-fluid rounded shadow" alt="Ilustración persona trabajando en laptop">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SERVICIOS (cards) -->
+  <section id="servicios" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-4">
+        <span class="badge text-bg-warning-subtle text-warning">Qué hacemos</span>
+        <h2 class="mt-2 fw-bold">Servicios</h2>
+        <p class="text-muted mb-0">De la idea al despliegue, sin drama.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <h5 class="card-title">Desarrollo Web</h5>
+              <p class="card-text text-muted">Sitios y apps responsive con foco en rendimiento y SEO.</p>
+              <ul class="small text-muted ps-3">
+                <li>Landing y e-commerce</li>
+                <li>Integraciones API</li>
+                <li>CMS (WordPress/Headless)</li>
+              </ul>
+              <a href="Detalle.html#web" class="stretched-link">Saber más</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <h5 class="card-title">Automatización</h5>
+              <p class="card-text text-muted">Bots y flujos que ahorran horas y evitan errores.</p>
+              <ul class="small text-muted ps-3">
+                <li>RPA / Zapier / Make</li>
+                <li>Integración con CRM</li>
+                <li>Reportes automáticos</li>
+              </ul>
+              <a href="Detalle.html#auto" class="stretched-link">Saber más</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 card-hover">
+            <div class="card-body">
+              <h5 class="card-title">UX/UI & Prototipos</h5>
+              <p class="card-text text-muted">Diseño centrado en usuario con pruebas rápidas.</p>
+              <ul class="small text-muted ps-3">
+                <li>Wireframes y prototipos</li>
+                <li>Design system</li>
+                <li>UX writing</li>
+              </ul>
+              <a href="Detalle.html#ux" class="stretched-link">Saber más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA simple debajo de las cards -->
+      <div class="text-center mt-5">
+        <a href="Contacto.html" class="btn btn-warning btn-lg">Agenda una demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA INTERMEDIA -->
+  <section class="py-5">
+    <div class="container">
+      <div class="p-4 p-lg-5 rounded-4 cta-gradient text-center text-lg-start d-lg-flex justify-content-between align-items-center">
+        <div class="mb-3 mb-lg-0">
+          <h3 class="mb-1 fw-bold">¿Listo para acelerar tu proyecto?</h3>
+          <p class="mb-0 text-white-50">En 48h te entregamos un plan con tiempos y costos.</p>
+        </div>
+        <a href="Contacto.html" class="btn btn-light btn-lg ms-lg-3">Quiero mi plan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRANJA DE CONTACTO -->
+  <section class="py-4 border-top bg-white">
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-12 col-md-4 d-flex align-items-start gap-3">
+          <i class="bi bi-geo-alt-fill text-warning fs-5 mt-1"></i>
+          <div>
+            <div class="fw-semibold">1234 Calle Principal, Ciudad</div>
+            <small class="text-muted">Lun–Vie 8:00–18:00</small>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 d-flex align-items-start gap-3">
+          <i class="bi bi-envelope-fill text-warning fs-5 mt-1"></i>
+          <div>
+            <a href="mailto:contacto@technova.com" class="fw-semibold text-decoration-none">contacto@technova.com</a>
+            <div><small class="text-muted">Soporte y ventas</small></div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 d-flex align-items-start gap-3">
+          <i class="bi bi-telephone-fill text-warning fs-5 mt-1"></i>
+          <div>
+            <a href="tel:+12345678900" class="fw-semibold text-decoration-none">+1 (234) 567-8900</a>
+            <div><small class="text-muted">Llámanos hoy</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white">
+    <div class="container py-4 d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
+      <div>© <span id="year"></span> TechNova Solutions</div>
+      <div class="d-flex gap-3 fs-5">
+        <a class="text-white-50 hover-light" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a class="text-white-50 hover-light" href="#" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+        <a class="text-white-50 hover-light" href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- JS propio -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
